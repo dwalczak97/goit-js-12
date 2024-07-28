@@ -6,7 +6,6 @@
 */
 @import url('./reset.css');
 @import url('./vite-promo.css');
-@import url('./header.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -58,7 +57,7 @@ p {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 272px;
-  height: 40px;
+  /* height: 40px; */
   padding: 10px;
 }
 
@@ -98,7 +97,7 @@ input[type='text'] {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  max-width: 1128px;
+  /* max-width: 1128px; */
   justify-content: center;
   margin: 0 auto;
 }
